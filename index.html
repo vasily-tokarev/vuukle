@@ -9,6 +9,7 @@
 
 <script>
 	window.Promise || document.write('<script src="https://unpkg.com/es6-promise@3.2.1/dist/es6-promise.min.js"><\/script>');
+	window.Object.values || document.write('<script src="https://unpkg.com/es7-object-polyfill"><\/script>')
 	if (window.NodeList && !NodeList.prototype.forEach) {
     NodeList.prototype.forEach = Array.prototype.forEach;
 	}
