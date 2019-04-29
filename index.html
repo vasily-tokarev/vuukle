@@ -1,18 +1,5 @@
 <div id='vuukle-comments'></div> – Displays the main Vuukle comment system
 
-<!-- <div id='vuukle-emote'></div> – Displays the Emotes widget for the page -->
-
-<!-- <div id='vuukle-newsfeed'></div> – Displays the Newsfeed widget for the page -->
-
-<!-- <div class='vuukle-powerbar'></div> – Displays the social media share buttons. Can be included multiple times in a page.  -->
-
-
-  <script>
-    // window.Object.values || document.write('<script src="https://unpkg.com/es7-object-polyfill"><\/script>');
-    if (window.NodeList && !NodeList.prototype.forEach) {
-      NodeList.prototype.forEach = Array.prototype.forEach;
-    }
-  </script>
   <script>
   var VUUKLE_CONFIG = {
   	apiKey: "c0f74c17-d1e8-4b28-b58c-201cb97310af",
@@ -22,7 +9,7 @@
   (function() {
  	 var d = document,
   		s = d.createElement('script');
-	 s.src = './platform.js';
+	 s.src = 'https://cdn.vuukle.com/platform.js';
 	(d.head || d.body).appendChild(s);
   })();
  </script>
